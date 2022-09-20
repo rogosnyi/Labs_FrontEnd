@@ -1,0 +1,25 @@
+.pic {
+  height: 200px;
+  width: 400px;
+  background-color: #fff;
+  border: 1px solid black;
+}
+.pic_position {
+  position: relative;
+}
+.pic div {
+  background-color: red;
+  height: 50%;
+  width: 25%;
+  border-radius: 50%;
+}
+.pos {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tran {
+  transform: translate(calc(200px - 50%), calc(100px - 50%));
+}
