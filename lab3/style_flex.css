@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 9;
+  display: flex;
+}
+
+.pic1 {
+  flex: 1;
+  display: flex;
+  background-image: url(https://placehold.jp/1eff00/000000/150x150.png?text=IMAGE);
+}
+
+.box {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  flex: 1;
+  display: flex;
+  background-color: blue;
+}
+
+main {
+  flex: 8;
+  display: flex;
+}
+
+.pic2 {
+  width: 60%;
+  background-image: url(https://placehold.jp/fbff00/000000/150x150.png?text=IMAGE);
+}
+
+.text2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 10%;
+  width: 30%;
+  background-color: purple;
+}
+
+footer {
+  flex: 1;
+  display: flex;
+  width: 80%;
+  background-color: orange;
+}
