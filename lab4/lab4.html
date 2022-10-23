@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Lab1 Front-end technologies" />
+    <meta name="keywords" content="Lab1" />
+    <title>Рогозний О.В. ІП-05</title>
+  </head>
+
+  <body>
+    <div>
+      <h2>Рогозний Олексій Вячеславович</h2>
+      <p>Місце народження: 24 лютого, 2003 року, м.Одеса</p>
+      <p>
+        Освіта: СШ №10 м.Кременчук <br />
+        НТУУ "КПІ" м.Київ
+      </p>
+      <ul>
+        Хоббі
+        <li>Перегляд фільмів</li>
+        <li>Спорт</li>
+        <li>Компьютерні ігри</li>
+      </ul>
+      <ol>
+        Улюблені фільми
+        <li>Shutter island</li>
+        <li id="element1" onclick="random1()">Inception</li>
+        <li id="element2" onclick="random2()">Sleepy hollow</li>
+      </ol>
+      <p>
+        Оде́са — місто в Україні, Одеська область, Одеський район.
+        Адміністративний центр області та району. Третє найбільше місто країни
+        після Києва та Харкова. Розташоване на узбережжі Чорного моря.
+        Найбільший морський торговий порт держави. Культурно-освітній,
+        туристичний, торговий, транспортний центр. Складова Одеської міської
+        територіальної громади. Населення — 1 010 537 осіб (2022). Основа
+        економіки — транспортні перевезення, машинобудівна, хімічна,
+        нафтопереробна, харчова та легка промисловості. Працюють 37 закладів
+        вищої освіти, шість театрів, вісім кінотеатрів, філармонія, цирк, музеї,
+        галереї тощо.
+      </p>
+      <p>
+        Перші поселення на території Одеси засновані близько VII століття до н.
+        е. — III століття н. е. давньогрецькими колоністами.
+      </p>
+      <a
+        href="https://tourbaza.com/wp-content/uploads/2015/06/24.-%D0%9E%D0%B4%D0%B5%D1%81%D0%B0.-%D0%9E%D0%BF%D0%B5%D1%80%D0%BD%D0%B8%D0%B9-%D1%82%D0%B5%D0%B0%D1%82%D1%80.-e1434294812171.jpg"
+        ><img src="odesa.jpg" alt="Одеса"
+      /></a>
+      <div id="picture"></div>
+      <div>
+        <button onclick="newImage()">Додати</button>
+        <button onclick="increaseImage()">Збільшити</button>
+        <button onclick="decreaseImage()">Зменшити</button>
+        <button onclick="removeImage()">Видалити</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
