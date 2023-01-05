@@ -12,3 +12,5 @@
 ### [Lab4](https://rogosnyi.github.io/Labs_FrontEnd/lab4/lab4.html)
 
 ### [Lab5](https://rogosnyi.github.io/Labs_FrontEnd/lab5/lab5.html)
+
+### [Lab6](https://rogosnyi.github.io/Labs_FrontEnd/lab6/lab6.html)
